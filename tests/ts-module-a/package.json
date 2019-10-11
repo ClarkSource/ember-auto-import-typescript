@@ -1,0 +1,17 @@
+{
+  "name": "@test/ts-module-a",
+  "version": "0.0.0",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "lint:js": "eslint --ext ts,js ."
+  },
+  "dependencies": {
+    "@test/ts-module-b": "*"
+  },
+  "devDependencies": {
+    "@clark/eslint-config-typescript": "^1.14.1",
+    "eslint": "^6.5.1",
+    "typescript": "^3.6.4"
+  }
+}

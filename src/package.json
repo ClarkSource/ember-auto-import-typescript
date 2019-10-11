@@ -1,0 +1,24 @@
+{
+  "name": "ember-auto-import-typescript",
+  "version": "0.0.0",
+  "description": "Enable `ember-auto-import` to import `.ts` files",
+  "keywords": [
+    "ember-addon",
+    "ember-auto-import",
+    "typescript",
+    "ember-cli-typescript",
+    "ts",
+    "import"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "lint:js": "eslint --ext ts,js ."
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.6.0"
+  },
+  "devDependencies": {
+    "@clark/eslint-config-node": "^1.10.0",
+    "eslint": "^6.5.1"
+  }
+}
