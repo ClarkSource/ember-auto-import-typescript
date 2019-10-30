@@ -11,6 +11,7 @@ packages.
 [ember-auto-import]: https://github.com/ef4/ember-auto-import
 [ember-auto-import-config]: https://github.com/ef4/ember-auto-import#customizing-build-behavior
 [workspaces]: https://yarnpkg.com/lang/en/docs/workspaces/
+[ember-cli-typescript]: https://github.com/typed-ember/ember-cli-typescript
 
 ## Installation
 
