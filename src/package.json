@@ -11,6 +11,7 @@
     "import"
   ],
   "license": "ISC",
+  "repository": "ClarkSource/ember-auto-import-typescript",
   "scripts": {
     "lint:js": "eslint --ext ts,js ."
   },
