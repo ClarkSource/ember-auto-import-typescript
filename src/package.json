@@ -20,5 +20,10 @@
   "devDependencies": {
     "@clark/eslint-config-node": "^1.10.0",
     "eslint": "^6.5.1"
+  },
+  "ember-addon": {
+    "before": [
+      "ember-auto-import"
+    ]
   }
 }

@@ -1,14 +1,16 @@
+/* eslint-disable no-param-reassign */
+
 module.exports = {
   name: require('./package').name,
 
-  init(parent) {
+  included(parent) {
     // eslint-disable-next-line prefer-rest-params
-    this._super.init && this._super.init.apply(this, arguments);
+    this._super && this._super(...arguments);
     this.patchConfig(parent);
   },
 
   patchConfig(parent) {
-    console.log(parent);
-    // debugger;
+    if (!parent.options) parent.options = {};
+    parent.options.autoImport = require('./config');
   }
 };
