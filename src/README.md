@@ -17,11 +17,11 @@ packages.
 For apps:
 
 ```bash
-ember install ember-auto-import
+ember install ember-auto-import ember-auto-import-typescript
 ```
 
 For addons & engines:
 
 ```bash
-ember install -S ember-auto-import
+ember install -S ember-auto-import ember-auto-import-typescript
 ```
