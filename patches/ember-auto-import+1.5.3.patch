@@ -1,8 +1,8 @@
 diff --git a/node_modules/ember-auto-import/js/splitter.js b/node_modules/ember-auto-import/js/splitter.js
-index 8ef7abb..ce38ec9 100644
+index 2061463..f4d294d 100644
 --- a/node_modules/ember-auto-import/js/splitter.js
 +++ b/node_modules/ember-auto-import/js/splitter.js
-@@ -21,7 +21,7 @@ const debug = debug_1.default('ember-auto-import:splitter');
+@@ -22,7 +22,7 @@ const debug = debug_1.default('ember-auto-import:splitter');
  const resolver = enhanced_resolve_1.ResolverFactory.createResolver({
      // upstream types seem to be broken here
      fileSystem: new enhanced_resolve_1.CachedInputFileSystem(new enhanced_resolve_1.NodeJsInputFileSystem(), 4000),

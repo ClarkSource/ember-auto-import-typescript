@@ -10,8 +10,8 @@
     "@test/ts-module-b": "*"
   },
   "devDependencies": {
-    "@clark/eslint-config-typescript": "^1.14.1",
-    "eslint": "^6.5.1",
+    "@clark/eslint-config-typescript": "^1.15.1",
+    "eslint": "^6.6.0",
     "typescript": "^3.6.4"
   }
 }

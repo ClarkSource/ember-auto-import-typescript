@@ -33,8 +33,8 @@ This addon requires
 [PR #249 "feat(splitter): add `.ts` extension to resolver"][pr-249]. There's not
 been a new release since the PR got merged. This means you need to patch
 ember-auto-import yourself. I suggest to use [`patch-package`][patch-package]
-with the [`ember-auto-import+1.5.2.patch`][patch-file].
+with the [`ember-auto-import+1.5.3.patch`][patch-file].
 
 [pr-249]: https://github.com/ef4/ember-auto-import/pull/249
 [patch-package]: https://github.com/ds300/patch-package#readme
-[patch-file]: /patches/ember-auto-import+1.5.2.patch
+[patch-file]: /patches/ember-auto-import+1.5.3.patch
