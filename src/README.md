@@ -1,5 +1,13 @@
 # ember-auto-import-typescript
 
+[![npm version](https://badge.fury.io/js/ember-auto-import-typescript.svg)](http://badge.fury.io/js/ember-auto-import-typescript)
+[![Download Total](https://img.shields.io/npm/dt/ember-auto-import-typescript.svg)](http://badge.fury.io/js/ember-auto-import-typescript)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![CLARK Open Source](https://img.shields.io/badge/CLARK-Open%20Source-%232B6CDE.svg)](https://www.clark.de/de/jobs)  
+[![Dependabot enabled](https://img.shields.io/badge/dependabot-enabled-blue.svg?logo=dependabot)](https://dependabot.com/)
+[![dependencies Status](https://david-dm.org/ClarkSource/ember-auto-import-typescript/status.svg)](https://david-dm.org/ClarkSource/ember-auto-import-typescript)
+[![devDependencies Status](https://david-dm.org/ClarkSource/ember-auto-import-typescript/dev-status.svg)](https://david-dm.org/ClarkSource/ember-auto-import-typescript?type=dev)
+
 This addon patches the [ember-auto-import][ember-auto-import]
 [config][ember-auto-import-config] to enable the direct `import` of `.ts` files
 without an additional build / publish step in between. This is useful for
