@@ -11,6 +11,6 @@ module.exports = {
 
   patchConfig(parent) {
     if (!parent.options) parent.options = {};
-    parent.options.autoImport = require('./config');
+    parent.options.autoImport = require('./config')(this.project.targets);
   }
 };

@@ -16,6 +16,7 @@
     "lint:js": "eslint --ext ts,js ."
   },
   "dependencies": {
+    "@babel/preset-env": "^7.7.7",
     "@babel/preset-typescript": "^7.6.0"
   },
   "devDependencies": {
