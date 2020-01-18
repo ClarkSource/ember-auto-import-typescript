@@ -942,10 +942,10 @@
   dependencies:
     "@clark/eslint-plugin-import-helpers-with-package" "^1.19.0"
 
-"@clark/eslint-config-ember@^1.19.2":
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/@clark/eslint-config-ember/-/eslint-config-ember-1.19.2.tgz#89e04bdd0c95e646659664d4cc6b312e0fcbd159"
-  integrity sha512-ydL/BiSqPaWZeWNS3BwwwNRvPX7nSozzuc/W2d9VkslubPeM1DlivLOQJKE4RyneJ9N3AR66UfVu2mDEAwWn4w==
+"@clark/eslint-config-ember@^1.19.3":
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/@clark/eslint-config-ember/-/eslint-config-ember-1.19.3.tgz#f295d4c4250e9d94ea693cf905221fe157c47193"
+  integrity sha512-akUUQ+Q+kAgDKo/zHUteGTEOZ+6U/3eHEBwPkn/gLKSXLLd6SAGigt3sFZxg0RsjF0uDq4KrJ23ZXl7sXr84Zw==
   dependencies:
     "@clark/eslint-config" "^1.19.0"
     "@clark/eslint-config-browser" "^1.19.0"
