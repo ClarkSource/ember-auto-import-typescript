@@ -21,7 +21,7 @@
     "ember-cli-htmlbars": "^4.2.2"
   },
   "devDependencies": {
-    "@clark/eslint-config-ember": "^1.15.1",
+    "@clark/eslint-config-ember": "^1.19.0",
     "@clark/eslint-config-node": "^1.19.0",
     "@ember/optional-features": "^1.1.0",
     "broccoli-asset-rev": "^3.0.0",
