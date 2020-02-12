@@ -967,10 +967,10 @@
     eslint-plugin-node "^11.0.0"
     lodash.merge "^4.6.2"
 
-"@clark/eslint-config-typescript@^1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@clark/eslint-config-typescript/-/eslint-config-typescript-1.21.0.tgz#e081934296255159ed11a82d6751de074cc0211b"
-  integrity sha512-Dvs1U0uJ+sQZ5vKrwLP6AQ7Z6HDrc7TpUYyh7bT1vOfra/JIKuPiCbaGL3RcqebB+caQsuPT9au04VMMMgGUNw==
+"@clark/eslint-config-typescript@^1.22.0":
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@clark/eslint-config-typescript/-/eslint-config-typescript-1.22.0.tgz#47c9e00cb57408bb254a6bd1523d09bc90b73301"
+  integrity sha512-ltA8xA0ywpYWimMqVWLwNuyjphTmv222a1PDSXQIcKUW7xG4NfDu9gs0I8DEW340Vac3sc44TpUf4Z30NOpJlQ==
   dependencies:
     "@clark/eslint-config" "^1.21.0"
     "@typescript-eslint/eslint-plugin" "^2.19.2"
