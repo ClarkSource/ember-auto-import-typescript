@@ -29,6 +29,15 @@ module.exports = {
       use: {
         loader: 'babel-loader-8',
         options: {
+          plugins: [
+            // Transpile new syntax, which is apparently not yet handled by
+            // `@babel/preset-env`.
+            // @see https://github.com/typed-ember/ember-cli-typescript/blob/b2e75abc98beefe635b6cfd8808c887813acb44e/ts/addon.ts#L89-L94
+            require.resolve('@babel/plugin-proposal-optional-chaining'),
+            require.resolve(
+              '@babel/plugin-proposal-nullish-coalescing-operator'
+            )
+          ],
           presets: [
             // Transpile TypeScript
             require.resolve('@babel/preset-typescript'),
