@@ -30,6 +30,10 @@ module.exports = {
         loader: 'babel-loader-8',
         options: {
           plugins: [
+            // Transpile class properties
+            // @see https://github.com/typed-ember/ember-cli-typescript/blob/b2e75abc98beefe635b6cfd8808c887813acb44e/ts/addon.ts#L99
+            require.resolve('@babel/plugin-proposal-class-properties'),
+
             // Transpile new syntax, which is apparently not yet handled by
             // `@babel/preset-env`.
             // @see https://github.com/typed-ember/ember-cli-typescript/blob/b2e75abc98beefe635b6cfd8808c887813acb44e/ts/addon.ts#L89-L94
