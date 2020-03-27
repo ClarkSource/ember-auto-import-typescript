@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "patch-package": "^6.2.1",
-    "postinstall-postinstall": "^2.0.0"
+    "postinstall-postinstall": "^2.1.0"
   }
 }
