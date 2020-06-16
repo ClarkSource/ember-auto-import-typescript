@@ -23,7 +23,7 @@
     "@babel/preset-typescript": "^7.10.1"
   },
   "devDependencies": {
-    "@clark/eslint-config-node": "^1.23.0",
+    "@clark/eslint-config-node": "^1.25.2",
     "eslint": "^7.2.0"
   },
   "ember-addon": {
