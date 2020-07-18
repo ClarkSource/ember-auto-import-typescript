@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@clark/eslint-config-node": "^1.23.0",
-    "eslint": "^7.4.0"
+    "eslint": "^7.5.0"
   },
   "ember-addon": {
     "before": [
