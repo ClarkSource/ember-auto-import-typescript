@@ -13,7 +13,7 @@
     "@test/ts-module-a": "*"
   },
   "devDependencies": {
-    "@clark/eslint-config-ember": "^1.23.0",
+    "@clark/eslint-config-ember": "^1.26.5",
     "@clark/eslint-config-node": "^1.23.0",
     "@ember/optional-features": "^1.1.0",
     "@test/ts-module-a": "*",
