@@ -33,7 +33,7 @@
     "ember-qunit": "^4.5.1",
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.21.0",
-    "ember-template-lint": "^2.10.0",
+    "ember-template-lint": "^2.11.0",
     "eslint": "^7.7.0",
     "loader.js": "^4.7.0",
     "qunit-dom": "^1.4.0"
