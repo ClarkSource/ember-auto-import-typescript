@@ -5,12 +5,7 @@
     "tests/*"
   ],
   "scripts": {
-    "postinstall": "patch-package",
     "lint:js": "yarn workspaces run lint:js",
     "test": "yarn workspace @test/addon test && yarn workspace @test/app test"
-  },
-  "devDependencies": {
-    "patch-package": "^6.2.2",
-    "postinstall-postinstall": "^2.1.0"
   }
 }

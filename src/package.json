@@ -26,6 +26,9 @@
     "@clark/eslint-config-node": "^1.28.2",
     "eslint": "^7.11.0"
   },
+  "peerDependencies": {
+    "ember-auto-import": "^1.6.0"
+  },
   "ember-addon": {
     "before": [
       "ember-auto-import"
