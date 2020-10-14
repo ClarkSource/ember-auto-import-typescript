@@ -17,12 +17,16 @@ module.exports = {
     if (!autoImport.webpack) autoImport.webpack = {};
     const { webpack } = autoImport;
 
-    // Unshift `.ts` extension to `webpack.resolve.extensions`
-    if (!webpack.resolve) webpack.resolve = { extensions: ['.ts', '.js'] };
+    // Unshift `.ts` `.d.ts` extensions to `webpack.resolve.extensions`
+    if (!webpack.resolve)
+      webpack.resolve = { extensions: ['.ts', '.js', '.d.ts'] };
     else if (!webpack.resolve.extensions)
-      webpack.resolve.extensions = ['.ts', '.js'];
+      webpack.resolve.extensions = ['.ts', '.js', '.d.ts'];
     else if (!webpack.resolve.extensions.includes('.ts'))
       webpack.resolve.extensions.unshift('.ts');
+
+    if (!webpack.resolve.extensions.includes('.d.ts'))
+      webpack.resolve.extensions.push('.d.ts');
 
     const tsModuleRule = {
       test: /\.ts$/,
