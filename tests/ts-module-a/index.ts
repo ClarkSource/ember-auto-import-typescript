@@ -8,3 +8,5 @@ export enum SomeEnum {
   Foo,
   Bar
 }
+
+export type { SomeType } from './types-only';
