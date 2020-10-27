@@ -34,21 +34,25 @@ module.exports = {
         loader: 'babel-loader-8',
         options: {
           plugins: [
-            // Transpile class properties
-            // @see https://github.com/typed-ember/ember-cli-typescript/blob/b2e75abc98beefe635b6cfd8808c887813acb44e/ts/addon.ts#L99
-            require.resolve('@babel/plugin-proposal-class-properties'),
+            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L359-L385
+            [
+              require.resolve('@babel/plugin-transform-typescript'),
+              { allowDeclareFields: true }
+            ],
 
-            // Transpile new syntax, which is apparently not yet handled by
-            // `@babel/preset-env`.
-            // @see https://github.com/typed-ember/ember-cli-typescript/blob/b2e75abc98beefe635b6cfd8808c887813acb44e/ts/addon.ts#L89-L94
-            require.resolve('@babel/plugin-proposal-optional-chaining'),
-            require.resolve(
-              '@babel/plugin-proposal-nullish-coalescing-operator'
-            )
+            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L403-L409
+            [
+              require.resolve('@babel/plugin-proposal-decorators'),
+              { legacy: true }
+            ],
+
+            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L420-L426
+            [
+              require.resolve('@babel/plugin-proposal-class-properties'),
+              { loose: true }
+            ]
           ],
           presets: [
-            // Transpile TypeScript
-            require.resolve('@babel/preset-typescript'),
             // Transpile incompatible syntax for project build targets
             [
               require.resolve('@babel/preset-env'),
