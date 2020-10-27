@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 
-import { works, SomeEnum, moduleB } from '@test/ts-module-a';
+import { works, SomeEnum, moduleB, foo } from '@test/ts-module-a';
 
 module('ts-module-a', function () {
   test('it works', function (assert) {
@@ -8,5 +8,6 @@ module('ts-module-a', function () {
     assert.ok('Foo' in SomeEnum);
     assert.ok('Bar' in SomeEnum);
     assert.ok(moduleB.nestedWorks());
+    assert.ok(foo === 'foo');
   });
 });

@@ -15,4 +15,12 @@ export class SomeClass {
   declare someDeclaredProperty: true;
 }
 
+declare global {
+  interface Window {
+    foo?: { bar?: string };
+  }
+}
+
+export const foo = window.foo?.bar ?? 'foo';
+
 export type { SomeType } from './types-only';

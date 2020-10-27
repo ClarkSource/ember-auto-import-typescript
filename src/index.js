@@ -50,7 +50,14 @@ module.exports = {
             [
               require.resolve('@babel/plugin-proposal-class-properties'),
               { loose: true }
-            ]
+            ],
+
+            // https://github.com/webpack/webpack/issues/10227
+            // Remove when `ember-auto-import` updates to `webpack@5`.
+            require.resolve(
+              '@babel/plugin-proposal-nullish-coalescing-operator'
+            ),
+            require.resolve('@babel/plugin-proposal-optional-chaining')
           ],
           presets: [
             // Transpile incompatible syntax for project build targets
