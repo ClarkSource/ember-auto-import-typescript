@@ -9,4 +9,10 @@ export enum SomeEnum {
   Bar
 }
 
+export class SomeClass {
+  someProperty = true;
+  private somePrivateProperty = true;
+  declare someDeclaredProperty: true;
+}
+
 export type { SomeType } from './types-only';
