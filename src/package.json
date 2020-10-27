@@ -1,6 +1,6 @@
 {
   "name": "ember-auto-import-typescript",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Enable `ember-auto-import` to import `.ts` files",
   "keywords": [
     "ember-addon",
