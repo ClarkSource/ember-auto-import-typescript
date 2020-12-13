@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.12.10"
   },
   "devDependencies": {
-    "@clark/eslint-config-node": "^1.28.2",
+    "@clark/eslint-config-node": "^2.0.0",
     "eslint": "^7.15.0"
   },
   "peerDependencies": {
