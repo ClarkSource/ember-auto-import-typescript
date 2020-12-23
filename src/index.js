@@ -74,8 +74,16 @@ module.exports = {
     };
 
     // Push `tsModuleRule` into `webpack.module.rules`
-    if (!webpack.module) webpack.module = { rules: [tsModuleRule] };
-    else if (!webpack.module.rules) webpack.module.rules = [tsModuleRule];
-    else webpack.module.rules.push(tsModuleRule);
+    if (!webpack.module) {
+      webpack.module = { rules: [tsModuleRule] };
+    } else if (!webpack.module.rules) {
+      webpack.module.rules = [tsModuleRule];
+    } else if (
+      !webpack.module.rules.some(
+        r => String(r.test) === String(tsModuleRule.test)
+      )
+    ) {
+      webpack.module.rules.push(tsModuleRule);
+    }
   }
 };
