@@ -16,7 +16,7 @@
     "lint:js": "eslint --ext ts,js ."
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-proposal-decorators": "^7.12.13",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.13",
     "@babel/plugin-proposal-optional-chaining": "^7.12.13",
