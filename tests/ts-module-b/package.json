@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "@clark/eslint-config-typescript": "^2.1.0",
-    "eslint": "^7.21.0",
+    "eslint": "^7.22.0",
     "typescript": "^4.2.3"
   }
 }
