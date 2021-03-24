@@ -18,7 +18,7 @@
     "@ember/optional-features": "^2.0.0",
     "@test/ts-module-a": "*",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.11.0",
+    "ember-auto-import": "^1.11.1",
     "ember-auto-import-typescript": "*",
     "ember-cli": "~3.25.2",
     "ember-cli-app-version": "^5.0.0",
