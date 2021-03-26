@@ -17,7 +17,7 @@
     "@test/ts-module-a": "*",
     "ember-auto-import": "^1.11.2",
     "ember-auto-import-typescript": "*",
-    "ember-cli-babel": "^7.26.2",
+    "ember-cli-babel": "^7.26.3",
     "ember-cli-htmlbars": "^5.7.1"
   },
   "devDependencies": {
