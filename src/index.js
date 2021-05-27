@@ -34,22 +34,22 @@ module.exports = {
         loader: 'babel-loader-8',
         options: {
           plugins: [
-            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L359-L385
+            // https://github.com/babel/ember-cli-babel/blob/4c3b9091d7c711ecb804a52226409b409a702d82/lib/babel-options-util.js#L398
             [
               require.resolve('@babel/plugin-transform-typescript'),
               { allowDeclareFields: true }
             ],
 
-            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L403-L409
+            // https://github.com/babel/ember-cli-babel/blob/4c3b9091d7c711ecb804a52226409b409a702d82/lib/babel-options-util.js#L324
             [
               require.resolve('@babel/plugin-proposal-decorators'),
               { legacy: true }
             ],
 
-            // https://github.com/babel/ember-cli-babel/blob/036723709e26aba68eee1d5a9df49f97944e435b/index.js#L420-L426
+            // https://github.com/babel/ember-cli-babel/blob/4c3b9091d7c711ecb804a52226409b409a702d82/lib/babel-options-util.js#L348-L349
             [
               require.resolve('@babel/plugin-proposal-class-properties'),
-              { loose: true }
+              { loose: false }
             ],
 
             // https://github.com/webpack/webpack/issues/10227
