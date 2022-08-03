@@ -19,7 +19,7 @@
     "@ember/test-helpers": "^2.8.1",
     "@test/ts-module-a": "*",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^1.11.3",
+    "ember-auto-import": "^1.12.2",
     "ember-auto-import-typescript": "*",
     "ember-cli": "~4.6.0",
     "ember-cli-app-version": "^5.0.0",
