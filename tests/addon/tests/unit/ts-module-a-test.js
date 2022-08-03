@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 
-import { works, SomeEnum, moduleB } from '@test/addon';
+import { moduleB, SomeEnum, works } from '@test/addon';
 
 module('ts-module-a', function () {
   test('it works', function (assert) {
