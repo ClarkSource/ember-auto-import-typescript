@@ -6,7 +6,7 @@ export const moduleB = b;
 
 export enum SomeEnum {
   Foo,
-  Bar
+  Bar,
 }
 
 export class SomeClass {

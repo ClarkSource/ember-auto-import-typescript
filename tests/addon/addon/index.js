@@ -1,1 +1,1 @@
-export { works, SomeEnum, moduleB } from '@test/ts-module-a';
+export { moduleB, SomeEnum, works } from '@test/ts-module-a';
