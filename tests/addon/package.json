@@ -21,8 +21,6 @@
     "ember-cli-htmlbars": "^6.1.0"
   },
   "devDependencies": {
-    "@clark/eslint-config-ember": "^2.2.0",
-    "@clark/eslint-config-node": "^2.2.0",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.8.1",
     "broccoli-asset-rev": "^3.0.0",
@@ -40,7 +38,6 @@
     "ember-source-channel-url": "^3.0.0",
     "ember-template-lint": "^4.10.1",
     "ember-try": "^2.0.0",
-    "eslint": "^7.32.0",
     "loader.js": "^4.7.0",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
