@@ -11,7 +11,7 @@
   "devDependencies": {
     "@clark/eslint-config-typescript": "^2.2.0",
     "@nullvoxpopuli/eslint-configs": "^2.2.46",
-    "eslint": "^7.32.0"
+    "eslint": "^8.25.0"
   },
   "volta": {
     "node": "16.16.0"
