@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@clark/eslint-config-typescript": "^2.2.0",
-    "@nullvoxpopuli/eslint-configs": "^2.2.46",
+    "@nullvoxpopuli/eslint-configs": "^2.3.5",
     "eslint": "^7.32.0"
   },
   "volta": {
