@@ -31,7 +31,7 @@
     "ember-maybe-import-regenerator": "^1.0.0",
     "ember-qunit": "^5.1.5",
     "ember-resolver": "^8.0.3",
-    "ember-source": "~3.27.5",
+    "ember-source": "~4.10.0",
     "ember-template-lint": "^4.10.1",
     "loader.js": "^4.7.0",
     "qunit": "^2.19.1",
